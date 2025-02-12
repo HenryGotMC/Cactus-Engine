@@ -2,34 +2,37 @@
 #include <iostream>
 #include <string>
 
-getName(){
-    return name;
+std::string Student::getName(){
+    return getname;
 }
 
-std::string Student::setName(){
-this-> Name
+int Student::getAge(){
+    return getAge;
 }
 
-getAge(){
-    return age
+std::string Student::getHeight(){
+    return getHeight;
 }
 
-setAge(){
-
-}
-getHeight(){
-
-}
-setHeight(){
-
-}
-getSid(){
-
-}
-setSid(){
-    
+std::string Student::getSid(){
+    return getSid;
 }
 
-display(){
-    student::name
+void Student::setName(std::string getname){
+    this->name=getName;
+}
+void Student::setAge(){
+    this->age=getAge;
+}
+void Student::setHeight(){
+    this->height=getHeight;
+}
+void Student::setSid(){
+    this->sid=getSid;
+}
+void display(){
+    std::cout<<name<<age<<height<<sid;
+}
+int main(){
+    std::cout<<"Hello you are putting in information about students"
 }
